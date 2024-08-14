@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab Activity #2</title>
     <style>
+
         table {
-            font-family: 'Inter', Verdana, "Segoe UI", Helvetica, Sans-Serif;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             margin: 36px auto;
             border-collapse: collapse;
             box-shadow: 0px 0px 3px -1px #000000dd;
+            border-color: #000000dd;
         }
         table td {
             border-bottom: 1px solid #9c9c9cdd;
             border-right: 1px solid #9c9c9cdd;
             border-left: 1px solid #9c9c9cdd;
-            padding: 7px 35px;
+            padding: 10px 10px;
             font-size: 12px;
         }
         tbody {
@@ -32,10 +34,44 @@
             font-weight: bold;
             background-color: #e2e2e2;
         }
+        tr{
+            background-color: #87CFEA;
+        }
+        .in-progress{
+            background-color: yellow;
+        }
+        .not-taken{
+            background-color: white;
+        }
+        .course{
+            margin: 1px auto;
+            font-size: smaller;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .name{
+            margin: 1px auto;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        .id-number{
+            margin: 1px auto;
+            font-size: small;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
     </style>
 </head>
 
 <body>
+    <h2 class="course">
+        Bachelor of Science and Information Technology
+    </h2>
+    <h3 class="name">
+        GUJILDE, RAMI GABRIEL P.
+        <br>22-2004978
+    </h3>
     <table>
         <tbody>
             <!--1st Year, 1st Sem-->
@@ -266,10 +302,10 @@
                 <td>GEEL02</td>
                 <td>First Semester A.Y. 2023-2024</td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>PEDUC3</td>
                 <td>Physical Activities Towards Health and Fitness 3</td>
-                <td>3.0</td>
+                <td>2.0</td>
                 <td> </td>
                 <td>In Progress</td>
                 <td>PEDUC3</td>
@@ -333,7 +369,7 @@
                 <td>TECHNO</td>
                 <td>Second Semester A.Y. 2023-2024</td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>GEEL03</td>
                 <td>Technopreneurship</td>
                 <td>3.0</td>
@@ -342,7 +378,7 @@
                 <td>GEEL03</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>PEDUC4</td>
                 <td>Physical Activities Towards Health and Fitness 4</td>
                 <td>2.0</td>
@@ -364,7 +400,7 @@
                 <td>Course</td>
                 <td>Term</td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>SOFENG</td>
                 <td>Software Engineering</td>
                 <td>3.0</td>
@@ -373,7 +409,7 @@
                 <td>SOFENG</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>WEBTEC</td>
                 <td>Web Technology</td>
                 <td>3.0</td>
@@ -382,7 +418,7 @@
                 <td>WEBTEC</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>RESMET</td>
                 <td>Research Methods in IT</td>
                 <td>3.0</td>
@@ -391,7 +427,7 @@
                 <td>RESMET</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>SYSTIN</td>
                 <td>System Integration and Architecture</td>
                 <td>3.0</td>
@@ -400,7 +436,7 @@
                 <td>SYSTIN</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>MOBAPP_</td>
                 <td>Mobile Application</td>
                 <td>3.0</td>
@@ -409,7 +445,7 @@
                 <td>MOBAPP_</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="in-progress">
                 <td>PROEL2</td>
                 <td>Professional Elective 2</td>
                 <td>3.0</td>
@@ -431,7 +467,7 @@
                 <td>Course</td>
                 <td>Term</td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>CPSTON1</td>
                 <td>Capstone Project 1</td>
                 <td>3.0</td>
@@ -440,7 +476,7 @@
                 <td>CPSTON1</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>SOCPRO</td>
                 <td>Social and Professional Issues</td>
                 <td>3.0</td>
@@ -449,7 +485,7 @@
                 <td>SOCPRO</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>PROEL3</td>
                 <td>Professional Elective 3</td>
                 <td>3.0</td>
@@ -458,7 +494,7 @@
                 <td>PROEL3</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>PROEL4</td>
                 <td>Professional Elective 4</td>
                 <td>3.0</td>
@@ -467,7 +503,7 @@
                 <td>PROEL4</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>SYSTAD</td>
                 <td>System Administration and Maintenance</td>
                 <td>3.0</td>
@@ -476,7 +512,7 @@
                 <td>SYSTAD</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>APPDEV</td>
                 <td>Application Development and Emerging Technologies</td>
                 <td>3.0</td>
@@ -487,7 +523,7 @@
             </tr>
             <!--4th Year, 1st Sem-->
             <tr>
-                <td class="sem" colspan="7">Fourth, First Semester</th>
+                <td class="sem" colspan="7">Fourth Year, First Semester</th>
             </tr>
             <tr class="sem-header">
                 <td>Course</td>
@@ -507,7 +543,7 @@
                 <td>CONWOR</td>
                 <td>Second Semester A.Y 2023-2024</td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>OPESYS</td>
                 <td>Operating Systems</td>
                 <td>3.0</td>
@@ -516,7 +552,7 @@
                 <td>OPESYS</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>ITPRA1</td>
                 <td>IT Practicum 1 (250 Hours)</td>
                 <td>3.0</td>
@@ -525,7 +561,7 @@
                 <td>ITPRA1</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>CPSTON2</td>
                 <td>Capstone Project 2</td>
                 <td>3.0</td>
@@ -534,7 +570,7 @@
                 <td>CPSTON2</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>INFASS</td>
                 <td>Information Assurance and Security</td>
                 <td>3.0</td>
@@ -545,7 +581,7 @@
             </tr>
             <!--4th Year, 2nd Sem-->
             <tr>
-                <td class="sem" colspan="7">Fourth, Second Semester</th>
+                <td class="sem" colspan="7">Fourth Year, Second Semester</th>
             </tr>
             <tr class="sem-header">
                 <td>Course</td>
@@ -556,7 +592,7 @@
                 <td>Course</td>
                 <td>Term</td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>PHIHIS</td>
                 <td>Readings in Philippine History</td>
                 <td>3.0</td>
@@ -565,7 +601,7 @@
                 <td>PHIHIS</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>PLATEC</td>
                 <td>Platform Technologies</td>
                 <td>3.0</td>
@@ -574,7 +610,7 @@
                 <td>PLATEC</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>ETHICS</td>
                 <td>Ethics</td>
                 <td>3.0</td>
@@ -583,7 +619,7 @@
                 <td>ETHICS</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>ITPRA2</td>
                 <td>IT Practicum 2 (250 Hours)</td>
                 <td>3.0</td>
@@ -592,7 +628,7 @@
                 <td>ITPRA2</td>
                 <td></td>
             </tr>
-            <tr>
+            <tr class="not-taken">
                 <td>BUSANA</td>
                 <td>Business Analytics</td>
                 <td>3.0</td>
